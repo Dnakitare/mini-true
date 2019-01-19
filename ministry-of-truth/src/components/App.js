@@ -1,14 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../css/App.css';
+import Report from "./Report";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="mini-true">
-        <header>
-			  <h1>[Ministry-of-Truth]</h1>
-			  <p>"Freedom of thought makes slaves of us all"<br/>- Big Brother</p>
-        </header>
+			<div className="header">
+				<header>
+					<h1>[Ministry-of-Truth]</h1>
+					<p>"Freedom of thought makes slaves of us all"<br/>- Big Brother</p>
+				</header>
+			</div>
+			<Report/>
       </div>
     );
   }
