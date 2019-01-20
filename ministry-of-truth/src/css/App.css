@@ -15,7 +15,7 @@ div header {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background: linear-gradient(-45deg, white, white, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), red, red);
+	background: linear-gradient(-45deg, white, white, white, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), red, red, red);
 	background-size: 400% 400%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

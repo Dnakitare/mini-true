@@ -5,7 +5,7 @@ import Report from "./Report";
 class App extends React.Component {
   render() {
     return (
-      <div className="mini-true">
+      <div className="mini-true container-fluid">
 			<div className="header">
 				<header>
 					<h1>[Ministry-of-Truth]</h1>
