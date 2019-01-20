@@ -12,7 +12,7 @@ class Report extends React.Component {
 			<div className="report">
 				<div className="container-fluid align-items-center justify-content-center">
 					<h2>
-						Protect Our Perfect Society<br/>Report Your Neighbor
+						Protect Our Perfect Society<br/>Report Your Comrade
 					</h2>
 					<h3>Universal ID of Prosel:</h3>
 					<h5 className="bar">{randomNum()}</h5>
@@ -26,6 +26,8 @@ class Report extends React.Component {
 					</select>
 					<br/>
 					<button onClick={() => alert("DOUBLEPLUSGOOD!\nRetrevial team dispatched to offenders current location\nYour comrade will be processed and re-educated or recycled\nBig Brother Is Always Watching")}>CrimeStop</button>
+					<br/>
+					<img alt="ingsoc" src={require('../images/500px-Ingsoc_logo_from_1984.svg.png')}/>
 				</div>
 			</div>
 		)

@@ -9,7 +9,6 @@ div {
 div header {
 	flex-direction: row;
 	font-family: 'Black Ops One', cursive;
-	font-size: 6vh;
 	text-align: center;
 	position: absolute;
 	top: 50%;
@@ -23,13 +22,15 @@ div header {
 	animation: Gradient 15s ease infinite;
 }
 
+
 div header h1 {
-	width: 75vw;
+	font-size: 75px;
 }
 
 div header p {
 	font-size: 25px;
 }
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
