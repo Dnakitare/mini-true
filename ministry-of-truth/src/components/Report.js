@@ -25,7 +25,7 @@ class Report extends React.Component {
 						<option>Uttering OldSpeak</option>
 					</select>
 					<br/>
-					<button onClick={() => alert("DOUBLEPLUSGOOD!\nRetrevial team dispatched to offenders current location\nYour comrade will be processed and re-educated or recycled\nBig Brother Is Always Watching")}>CrimeStop</button>
+					<button onClick={() => alert("DOUBLEPLUSGOOD!\nRETRIEVAL TEAM DISPATCHED\nSUSPECT WILL BE PROCESSED AND RE_EDUCATED OR RECYCLED\nBIG BROTHER IS ALWAYS WATCHING")}>CrimeStop</button>
 					<br/>
 					<img alt="ingsoc" src={require('../images/500px-Ingsoc_logo_from_1984.svg.png')}/>
 					<p className="winston-lives">.</p>
