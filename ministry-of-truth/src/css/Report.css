@@ -3,11 +3,16 @@
 
 div {
 	text-align: center;
+	height: 95vh;
 }
 
 .report {
-	padding-top: 25vh;
+	padding-top: 7vh;
 
+}
+
+div h2 {
+	padding-top: 5vh;
 }
 
 div h2, h3 {
@@ -18,7 +23,7 @@ div h2, h3 {
  }
 
  div h3 {
-	 margin-top: 3rem;
+	 margin-top: 2rem;
 	 font-size: 2.5vh;
  }
 
